@@ -1,2 +1,2 @@
-set(__QT_DEPLOY_TARGET_CGPT_FILE /Users/simonebuccolieri/CLionProjects/CGPT/CGPT)
-set(__QT_DEPLOY_TARGET_CGPT_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_QtCalculator_FILE /Users/simonebuccolieri/CLionProjects/QtCalculator/QtCalculator)
+set(__QT_DEPLOY_TARGET_QtCalculator_TYPE EXECUTABLE)

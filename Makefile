@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/simonebuccolieri/CLionProjects/CGPT
+CMAKE_SOURCE_DIR = /Users/simonebuccolieri/CLionProjects/QtCalculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/simonebuccolieri/CLionProjects/CGPT
+CMAKE_BINARY_DIR = /Users/simonebuccolieri/CLionProjects/QtCalculator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonebuccolieri/CLionProjects/CGPT/CMakeFiles /Users/simonebuccolieri/CLionProjects/CGPT//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonebuccolieri/CLionProjects/QtCalculator/CMakeFiles /Users/simonebuccolieri/CLionProjects/QtCalculator//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonebuccolieri/CLionProjects/CGPT/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/simonebuccolieri/CLionProjects/QtCalculator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CGPT
+# Target rules for targets named QtCalculator
 
 # Build rule for target.
-CGPT: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CGPT
-.PHONY : CGPT
+QtCalculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtCalculator
+.PHONY : QtCalculator
 
 # fast build rule for target.
-CGPT/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/build
-.PHONY : CGPT/fast
+QtCalculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/build
+.PHONY : QtCalculator/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -158,7 +158,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/mainwindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -166,7 +166,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -174,7 +174,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 moc_mainwindow.o: moc_mainwindow.cpp.o
@@ -182,7 +182,7 @@ moc_mainwindow.o: moc_mainwindow.cpp.o
 
 # target to build an object file
 moc_mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/moc_mainwindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/moc_mainwindow.cpp.o
 .PHONY : moc_mainwindow.cpp.o
 
 moc_mainwindow.i: moc_mainwindow.cpp.i
@@ -190,7 +190,7 @@ moc_mainwindow.i: moc_mainwindow.cpp.i
 
 # target to preprocess a source file
 moc_mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/moc_mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/moc_mainwindow.cpp.i
 .PHONY : moc_mainwindow.cpp.i
 
 moc_mainwindow.s: moc_mainwindow.cpp.s
@@ -198,7 +198,7 @@ moc_mainwindow.s: moc_mainwindow.cpp.s
 
 # target to generate assembly for a file
 moc_mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGPT.dir/build.make CMakeFiles/CGPT.dir/moc_mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtCalculator.dir/build.make CMakeFiles/QtCalculator.dir/moc_mainwindow.cpp.s
 .PHONY : moc_mainwindow.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CGPT"
+	@echo "... QtCalculator"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

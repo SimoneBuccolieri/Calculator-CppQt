@@ -1,3 +1,3 @@
-/Users/simonebuccolieri/CLionProjects/CGPT/CMakeFiles/CGPT.dir
-/Users/simonebuccolieri/CLionProjects/CGPT/CMakeFiles/edit_cache.dir
-/Users/simonebuccolieri/CLionProjects/CGPT/CMakeFiles/rebuild_cache.dir
+/Users/simonebuccolieri/CLionProjects/QtCalculator/CMakeFiles/QtCalculator.dir
+/Users/simonebuccolieri/CLionProjects/QtCalculator/CMakeFiles/edit_cache.dir
+/Users/simonebuccolieri/CLionProjects/QtCalculator/CMakeFiles/rebuild_cache.dir

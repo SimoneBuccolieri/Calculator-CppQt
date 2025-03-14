@@ -24,7 +24,7 @@ set(HEADERS
 qt_wrap_cpp(MOC_SOURCES ${HEADERS})
 
 # Creazione dell'eseguibile
-add_executable(CGPT ${SOURCES} ${MOC_SOURCES})
+add_executable(QtCalculator ${SOURCES} ${MOC_SOURCES})
 
 # Collega le librerie Qt necessarie
-target_link_libraries(CGPT Qt6::Widgets)
+target_link_libraries(QtCalculator Qt6::Widgets)
