@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_CGPT_FILE /Users/simonebuccolieri/CLionProjects/CGPT/CGPT)
+set(__QT_DEPLOY_TARGET_CGPT_TYPE EXECUTABLE)

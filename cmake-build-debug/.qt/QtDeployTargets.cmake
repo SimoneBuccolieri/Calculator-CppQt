@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtCLionProject_FILE /Users/simonebuccolieri/CLionProjects/CGPT/cmake-build-debug/QtCLionProject)
+set(__QT_DEPLOY_TARGET_QtCLionProject_TYPE EXECUTABLE)
